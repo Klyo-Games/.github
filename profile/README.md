@@ -73,6 +73,10 @@ We are exploring a developer tool that brings **VS Code, Google Chrome and Godot
 
 The [Klyo Website Analyzer](https://github.com/krastranseu-lang/klyo-website-analyzer) is a separate API and MCP-integrated tool for inspecting website markup, detected technologies and crawler-access signals. It is not required to publish a game and does not certify search rankings or AI visibility.
 
+## Sponsor
+
+Klyo Games is sponsored by **[KRAS-TRANS](https://kras-trans.eu/)**. The Klyo Games MCP and multiplayer starter repositories are maintained on the [KRAS-TRANS GitHub account](https://github.com/krastranseu-lang).
+
 ## Community and support
 
 For publishing requirements and commercial terms, use the current [developer information](https://games.klyo.pl/for-developers/). For a problem with an integration, open an issue in the relevant repository with reproduction steps and redacted logs.

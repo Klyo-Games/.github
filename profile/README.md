@@ -1,134 +1,86 @@
 <p align="center">
-  <a href="https://games.klyo.pl/">
-    <img src="https://avatars.githubusercontent.com/u/347398364?v=4" width="104" height="104" alt="Klyo Games logo">
-  </a>
+  <a href="https://games.klyo.pl/"><img src="https://avatars.githubusercontent.com/u/347398364?v=4" width="112" height="112" alt="Klyo Games"></a>
 </p>
-
 <h1 align="center">Klyo Games</h1>
-
+<p align="center"><strong>Browser games for players. Publishing tools for developers.</strong></p>
+<p align="center">Play a game. Build something original. Bring it to players.</p>
 <p align="center">
-  <strong>Free online browser games. Tools for the people who build them.</strong>
-</p>
-
-<p align="center">Play instantly. Build your game. Bring it to players.</p>
-
-<p align="center">
-  <a href="https://games.klyo.pl/"><img src="https://img.shields.io/badge/Play_games-0D9488?style=for-the-badge" alt="Play free online games"></a>
-  <a href="https://dev.klyo.pl/"><img src="https://img.shields.io/badge/Publish_a_game-1F2937?style=for-the-badge" alt="Open the Klyo developer studio"></a>
-  <a href="https://games.klyo.pl/mcp/"><img src="https://img.shields.io/badge/MCP_documentation-4F46E5?style=for-the-badge" alt="Read the Klyo MCP documentation"></a>
-</p>
-
-<p align="center">
-  <a href="https://games.klyo.pl/for-developers/">For developers</a> &nbsp;·&nbsp;
-  <a href="https://games.klyo.pl/game-sdk/">Game SDK</a> &nbsp;·&nbsp;
-  <a href="https://www.reddit.com/r/KlyoGames/">Community</a>
+  <a href="https://games.klyo.pl/">Play games</a> &nbsp; · &nbsp;
+  <a href="https://dev.klyo.pl/">Developer studio</a> &nbsp; · &nbsp;
+  <a href="https://games.klyo.pl/mcp/">Connect an AI assistant</a>
 </p>
 
 ---
 
-## A place to play. A place to publish.
+## Play in the browser. Publish for the browser.
 
-**Klyo Games** connects players with browser games and gives independent developers a way to publish HTML5 and WebGL projects, integrate platform features and work with AI assistants through MCP.
+**Klyo Games** is a platform for free online browser games and independent game developers. Players discover games without installing an app. Developers can publish browser-ready HTML5 and WebGL projects, integrate platform services and use AI assistants through Model Context Protocol (MCP).
 
 <table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>For players</h3>
-      <p>Discover free puzzle, arcade, board, card and multiplayer games. Play in your browser on desktop or mobile, without installing an app.</p>
-      <p>Start playing without creating an account. Explore quick challenges, familiar classics and independent releases.</p>
-      <p><a href="https://games.klyo.pl/"><strong>Find your next game →</strong></a></p>
-    </td>
-    <td width="50%" valign="top">
-      <h3>For game developers</h3>
-      <p>Publish a browser-ready game, keep ownership of your work and give players a direct link to play.</p>
-      <p>Use the developer studio, SDK and MCP tools to prepare releases, add platform features and improve your game.</p>
-      <p><a href="https://games.klyo.pl/for-developers/"><strong>Explore publishing →</strong></a></p>
-    </td>
-  </tr>
+<tr>
+<td width="50%" valign="top">
+<h3>For players</h3>
+<p>Explore puzzle, arcade, board, card and multiplayer games. Choose a game for a quick break or a longer challenge, on desktop or mobile where supported.</p>
+<p><a href="https://games.klyo.pl/"><strong>Explore the catalogue →</strong></a></p>
+</td>
+<td width="50%" valign="top">
+<h3>For game developers</h3>
+<p>Bring a browser-ready build, prepare its listing, test the preview and release it to players. Publishing is non-exclusive, and you retain ownership of your work.</p>
+<p><a href="https://games.klyo.pl/for-developers/"><strong>Read the publishing guide →</strong></a></p>
+</td>
+</tr>
 </table>
 
-## Publish HTML5 and WebGL games
+## Developer projects
 
-Bring a web export from **Godot, Unity, Phaser, GDevelop, Construct, Defold or PICO-8**, or a game built with your own web code. The build must run in a browser and meet the publishing requirements.
+Start with the project that matches what you are building.
 
-**Build → Upload or import → Check → Preview → Release**
+| Project | What you will find | Start here |
+| :--- | :--- | :--- |
+| **Klyo Games MCP** | Connection settings, client packages, an agent skill and documentation for the hosted game-publishing service. | [Repository](https://github.com/krastranseu-lang/klyo-games-mcp) |
+| **Multiplayer starter** | A Four in a Row browser-game example with solo, local two-player and Klyo online-room integration. | [Code and setup](https://github.com/krastranseu-lang/klyo-multiplayer-starter) |
+| **Klyo Game SDK** | APIs for scores, progress, online play, gameplay events and supported platform features. | [SDK reference](https://games.klyo.pl/game-sdk/) |
 
-Upload a ZIP with `index.html` at its root, or import your own game from an existing public URL. Add the description and controls, complete the required declarations, review the checks and test the preview before release.
+The repositories document or integrate with hosted Klyo services. A repository license does not automatically license the platform backend or make its services self-hostable.
 
-Published games receive a catalogue page and a playable address. Publishing is non-exclusive: you retain your rights and can distribute your game elsewhere.
+## A workflow from prototype to release
 
-[Read the publishing guide](https://games.klyo.pl/support/publish-html5-game/) · [Open the developer studio](https://dev.klyo.pl/)
+**Build → Test → Preview → Review → Release → Improve**
 
-## Add platform features with the Klyo SDK
+Use a web export from your engine or your own HTML, CSS and JavaScript. The build must work in a browser and meet the platform's current requirements.
 
-Integrate the features your game needs rather than rebuilding each service from scratch.
+The developer studio and MCP tools support package uploads, preview builds, game-file changes, diagnostics, catalogue text and version management. Test changes before release; a new version should update the existing game rather than create a duplicate listing.
 
-| Feature | What you can add |
-| :--- | :--- |
-| Leaderboards | Submit scores and show daily, weekly and all-time rankings. |
-| Cloud saves | Save and restore player progress, including across devices for signed-in players. |
-| Multiplayer | Add supported online rooms, lobbies and invite flows. |
-| Gameplay clips | Let players capture moments from supported game canvases. |
-| Analytics | Report gameplay events and review where players leave. |
-| Ad integration | Use the platform's ad-break and rewarded-ad APIs, subject to availability. |
+SDK features require the corresponding integration. Publishing a game does not automatically implement multiplayer, cloud saves or score submission in its gameplay.
 
-These are SDK capabilities, not a claim that every game uses every feature. Integration requirements, supported environments and limits are described in the documentation.
+## Use your AI assistant with Klyo
 
-[Read the SDK documentation](https://games.klyo.pl/game-sdk/)
+The **Klyo Games MCP** connection gives compatible assistants a structured way to work with your games: inspect files, prepare changes, investigate errors and help with releases.
 
-## Work with AI through the Klyo MCP server
+The live tool list depends on the selected profile, account permissions and client configuration. A connected assistant is not automatically allowed to access every administrative tool. Review permissions and approve publication or other consequential actions.
 
-**Model Context Protocol (MCP)** connects compatible AI assistants to Klyo's game-development and publishing tools.
+Device-based playtesting requires your permission in the developer studio. Automated measurements help find defects, but do not replace checking actual gameplay, online matches and graphics on supported devices.
 
-Use the documented tools to prepare releases, inspect and edit game files, investigate browser errors, draft descriptions and translations, and read game statistics. Device-based playtesting requires your permission in the studio.
+[Connection guide and current tool documentation](https://games.klyo.pl/mcp/)
 
-You remain responsible for the game, its content declarations and release approval. Client support and available tools depend on the connection and account permissions; consult the current setup guide.
+## In development: connected game-development tools
 
-[Connect your assistant and explore the MCP tools](https://games.klyo.pl/mcp/)
+We are exploring a developer tool that brings **VS Code, Google Chrome and Godot** into a more connected workflow: editing code, testing in a browser and working in the engine without constantly rebuilding the surrounding process.
 
-<details>
-<summary><strong>Publishing and monetization: read the terms first</strong></summary>
+**Status: in development, not a released integration package.** This is separate from the existing developer studio and hosted MCP server. Availability and supported features will be announced when they are ready to demonstrate.
 
-Publishing is free. Klyo describes a developer pool of 70% of eligible net advertising revenue, allocated under its developer terms. Revenue sharing depends on advertising activation and actual revenue; it is not a guarantee of earnings.
+## Related Klyo tooling
 
-Check the current activation status, calculation method and payout conditions before making financial plans.
+The [Klyo Website Analyzer](https://github.com/krastranseu-lang/klyo-website-analyzer) is a separate API and MCP-integrated tool for inspecting website markup, detected technologies and crawler-access signals. It is not required to publish a game and does not certify search rankings or AI visibility.
 
-[Developer information](https://games.klyo.pl/for-developers/) · [Developer terms](https://games.klyo.pl/developer-terms/)
+## Community and support
 
-</details>
+For publishing requirements and commercial terms, use the current [developer information](https://games.klyo.pl/for-developers/). For a problem with an integration, open an issue in the relevant repository with reproduction steps and redacted logs.
 
----
+[Reddit community](https://www.reddit.com/r/KlyoGames/) · [YouTube](https://www.youtube.com/@Klyo_Games) · [TikTok](https://www.tiktok.com/@klyo.games) · [Facebook](https://www.facebook.com/KlyoGames)
 
-## In development: a connected game-development tool
+**Contact:** [kontakt@klyo.pl](mailto:kontakt@klyo.pl)
 
-We are also developing a tool to bring **VS Code, Google Chrome and Godot** into a more connected game-development workflow.
-
-The goal is to bring code editing, browser testing and game-engine work closer together, making it easier to move from an idea to a playable game.
-
-**Status: in development.** This is a separate project from the existing Klyo developer studio and MCP server. Features, supported integrations and availability will be announced as development progresses.
-
-Interested in sharing your workflow or discussing the project? [Contact Klyo](mailto:kontakt@klyo.pl).
-
-## Start here
-
-| You want to… | Go to… |
-| :--- | :--- |
-| Play a game | [Klyo Games](https://games.klyo.pl/) |
-| Publish your game | [Publishing overview](https://games.klyo.pl/for-developers/) |
-| Integrate scores, saves or multiplayer | [Klyo Game SDK](https://games.klyo.pl/game-sdk/) |
-| Connect an AI assistant | [Klyo MCP](https://games.klyo.pl/mcp/) |
-| Upload and manage releases | [Developer studio](https://dev.klyo.pl/) |
-
-## Community & contact
-
-Share what you are building, ask for feedback or show us a game you would like to publish.
-
-[Reddit](https://www.reddit.com/r/KlyoGames/) · [YouTube](https://www.youtube.com/@Klyo_Games) · [TikTok](https://www.tiktok.com/@klyo.games) · [Facebook](https://www.facebook.com/KlyoGames)
-
-**Questions, feedback and collaboration:** [kontakt@klyo.pl](mailto:kontakt@klyo.pl)
-
-Please keep passwords, API keys, player data and private project files out of public issues and repositories.
-
----
+Never post API keys, login codes, private game packages or player data in public issues.
 
 <p align="center"><strong>Klyo Games · Play. Build. Publish.</strong></p>
